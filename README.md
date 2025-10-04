@@ -58,6 +58,8 @@ py -3.12 demo_strands_tool_builtin.py
 
 py -3.12 demo_strands_tool_custom.py
 
+py -3.12 demo_strands_tool_mcp.py
+
 ## Resources
 https://strandsagents.com/latest/documentation/docs/
 https://docs.aws.amazon.com/bedrock/
