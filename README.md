@@ -54,6 +54,8 @@ py -3.12 demo_strands_callback_event_loop.py
 
 py -3.12 demo_strands_async_iterator.py
 
+py -3.12 demo_strands_tool_builtin.py
+
 ## Resources
 https://strandsagents.com/latest/documentation/docs/
 https://docs.aws.amazon.com/bedrock/
