@@ -23,6 +23,12 @@ py -3.12 -m pip install --upgrade strands-agents
 
 py -3.12 -m pip install --upgrade strands-agents-tools
 
+py -3.12 -m pip install --upgrade requests 
+
+py -3.12 -m pip install --upgrade beautifulsoup4
+
+py -3.12 -m pip install --upgrade wikipedia
+
 
 
 ### 4. Verify Installation
@@ -46,6 +52,14 @@ py -3.12 demo_strands_basic.py
 
 py -3.12 demo_strands_config.py
 
+py -3.12 demo_strands_logging.py
+
+py -3.12 demo_strands_conversation_history.py
+
+py -3.12 demo_strands_agent_state.py
+
+py -3.12 demo_strands_request_state.py
+
 py -3.12 demo_strands_bedrock.py
 
 py -3.12 demo_strands_callback.py
@@ -60,6 +74,18 @@ py -3.12 demo_strands_tool_custom.py
 
 py -3.12 demo_strands_tool_mcp.py
 
+###
+
+py -3.12 demo_tool_read_web_content.py
+
+py -3.12 demo_tool_wikipedia.py
+
 ## Resources
+
 https://strandsagents.com/latest/documentation/docs/
+
 https://docs.aws.amazon.com/bedrock/
+
+https://strandsagents.com/
+
+https://github.com/strands-agents/sdk-python
