@@ -56,6 +56,7 @@ Please answer the following questions:
 2. Calculate 3111696 / 74088
 3. Tell me how many letter R's are in the word "strawberry" 🍓
 4. Reverse the word "strawberry"
+5. Calculate integral of x**2 + 2*x
 
 Format your output in JSON.
 """
@@ -63,3 +64,30 @@ Format your output in JSON.
 # Have a conversation
 response = agent(message)
 print(response)
+
+
+####
+
+# Basic arithmetic evaluation
+result = agent.tool.calculator(expression="2 * sin(pi/4) + log(e**2)")
+print(result)
+# Equation solving
+result = agent.tool.calculator(expression="x**2 + 2*x + 1", mode="solve")
+print(result)
+
+# Calculate derivative
+result = agent.tool.calculator(
+    expression="sin(x)",
+    mode="derive",
+    wrt="x",
+    order=2
+)
+print(result)
+
+# Calculate integral
+result = agent.tool.calculator(
+    expression="x**2 + 2*x",
+    mode="integrate",
+    wrt="x"
+)
+print(result)
