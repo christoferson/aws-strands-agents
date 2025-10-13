@@ -1,3 +1,23 @@
+"""
+=============================================================================
+STRANDS AGENT DEMO - Custom Tools & Built-in Tools Integration
+=============================================================================
+
+This demo showcases how to create an AI agent using the Strands framework with:
+- Built-in tools from the strands-tools package (calculator, current_time)
+- A custom tool defined as a Python function (letter_counter)
+
+The agent can handle multiple requests in a single conversation, automatically
+selecting and using the appropriate tools to answer questions about:
+- Current time
+- Mathematical calculations
+- Letter counting in words
+
+This example demonstrates the flexibility of combining pre-built and custom
+tools to create a versatile AI agent.
+=============================================================================
+"""
+
 from strands import Agent, tool
 from strands_tools import calculator, current_time
 
