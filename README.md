@@ -74,6 +74,10 @@ py -3.12 demo_strands_tool_custom.py
 
 py -3.12 demo_strands_tool_mcp.py
 
+py -3.12 demo_evaluation.py
+
+py -3.12 demo_strands_executor.py
+
 ###
 
 py -3.12 demo_tool_read_web_content.py
